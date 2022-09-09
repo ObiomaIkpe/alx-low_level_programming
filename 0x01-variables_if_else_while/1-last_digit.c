@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - A function that compares different values
+ * main - A function that compares different nos
  *
  * Return: Always returns (0)
  */
@@ -21,7 +21,8 @@ int main(void)
 
 	if (last_digit > 5)
 	{
-	printf("Last digit of %d is %d and is greater than 5\n", n, last_digit);
+	printf("Last digit of %d is %d and is", n, last_digit); 
+	printf("greater than 5\n");
 	}
 	
 	else if (last_digit == 0)
@@ -29,7 +30,8 @@ int main(void)
 
 	else
 	{
-	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_digit);
+	printf("Last digit of %d is %d and is", n, last_digit);
+	printf("less than 6 and not 0\n");
 	}
 	return (0);
 
