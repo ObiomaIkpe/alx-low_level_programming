@@ -4,7 +4,7 @@
 /**
  * main - the first program to run
  *
- * Return - Always (0)
+ * Return: Always (0)
  */
 
 int main(void)
