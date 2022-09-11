@@ -14,9 +14,9 @@ int main(void)
 
 	for (i = '0'; i <= '9'; i++)
 		putchar(i);
-	for (upper = 'A'; upper <= 'F'; upper++)
+	for (upper = 'a'; upper <= 'f'; upper++)
 		putchar(upper);
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
