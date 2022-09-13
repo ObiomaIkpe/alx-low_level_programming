@@ -2,14 +2,16 @@
 #include <ctype.h>
 
 /**
- * _isalpha - Checks for uppercase char
- * @c: Takes int as an argument
- * Description: checks for uppercase char
- * Return: 1 if "c" is a letter, loweercaseor upper case
- * else return 0
+ * _islower - check for lowercase char
+ * @c: the character to be checked
+ * Description: checks for lower case characters
+ * Return: 1 if c is lowercase, else return 0
  */
 
-int _isalpha(int c)
+int _islower(int c)
 {
-	return ((c >= 'a' && c <= 'z') || (( >= 'A' && c <= 'Z'));
+	if (isalpha(c))
+		return (1);
+	else
+		return (0);
 }
