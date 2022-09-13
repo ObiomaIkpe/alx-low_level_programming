@@ -2,10 +2,10 @@
 #include <ctype.h>
 
 /**
- * _islower - check for lowercase char
+ * _isalpha - check for lowercase char
  * @c: the character to be checked
- * Description: checks for lower case characters
- * Return: 1 if c is lowercase, else return 0
+ * Description: checks for all alphabets
+ * Return: 1 if c is an lphabet, else return 0
  */
 
 int _isalpha(int c)
