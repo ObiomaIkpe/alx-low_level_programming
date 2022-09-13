@@ -2,12 +2,19 @@
 
 void print_alphabet_x10(void)
 {
-	int i;
+	int i = 0;
 
-	for (i ='0' i <= '9';  i++)
+	while (i <= 9)
 	{
-		for (j = 'a'; j <= 'z';) 
+		char lowercase = 'a';
+
+		while (lowercase <= 'z')
+		{
+			_putchar(lowercase);
+			lowercase++;
+		}
+
+		_putchar('\n');
+		i++;
 	}
-		_putchar(i);
-	_putchar('\n');
 }
