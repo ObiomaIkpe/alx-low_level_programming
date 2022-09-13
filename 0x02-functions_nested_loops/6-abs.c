@@ -15,7 +15,7 @@ int _abs(int n)
 		n = (-1) * n;
 		_putchar(n);
 	}
-	else if (n == 0)
+	else if (n = 0)
 	{
 		n == 0;
 		_putchar(n);
