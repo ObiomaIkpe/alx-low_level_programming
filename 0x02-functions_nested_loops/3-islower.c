@@ -8,6 +8,8 @@
  *Return: 1 if c is lowercase, else return 0
  */
 int _islower(int c)
+	int c;
+
 {
 	if (islower(c))
 	{
