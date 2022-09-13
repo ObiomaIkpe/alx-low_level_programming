@@ -8,7 +8,7 @@
  * Return: 1 if c is lowercase, else return 0
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 	if (isalpha(c))
 		return (1);
