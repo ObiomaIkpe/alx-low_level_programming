@@ -14,7 +14,7 @@ int print_last_digit(int c)
 		return(c);
 	else
 	{
-		c = _abs(c % 10);
+		c = (c % 10);
 		return(c);
 	}
 
