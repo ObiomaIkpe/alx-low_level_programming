@@ -1,41 +1,28 @@
 #include "main.h"
 
 /**
- * times_table - prints the times table
- *
- * Description: prints the times table
- * Return: none today
+ * jack_bauer - prints every minuete of the day
+ * Description: prints every minute of the day
+ * Return: void
  */
 
-void  times_table(void)
+void jack_bauer(void)
 {
-	int i, j, product;
+	int a, b;
 
-	for (i = 0; i <= 9; i++);
+	for (a = 0; a <= 23; a++)
 	{
-		for (j = 0; j <=9; j++);
+		for (b = 0; b <= 59; b++)
 		{
-			product = i * j;
-			if (j == 0)
-			{
-				_putchar(product + '0');
-			}
-			if (product < 10 && j != 0)
-			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
-				_putchar(product + '0');
-			} else if (product >= 10)
-			
-			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar((product / 10) + '0');
-				_putchar((product % 10) + '0');
-			}
+			_putchar((a / 10) + '0');
+			_putchar((a % 10) + '0');
+			_putchar(':');
+			_putchar((b / 10) + '0');
+			_putchar((b % 10) + '0');
+			_putchar('\n');
 		}
-
-		_putchar('\n');
 	}
 }
+
+	
+	
