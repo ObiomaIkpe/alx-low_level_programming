@@ -10,12 +10,18 @@
 
 int print_last_digit(int c)
 {
-	if (c >= 0 && c <= 9)
-		return(c);
-	else
-	{
-		c = (c % 10);
-		return(c);
-	}
+	if (n < 0)
+		n = -n;
+
+	lastDigit = n % 10;
+
+	if (lastDigit < 0)
+		lastDigit = -lastDigit;
+	
+	_putchar(lastDigit + '0');
+
+	
+		return(lastDigit);
+	
 
 }
