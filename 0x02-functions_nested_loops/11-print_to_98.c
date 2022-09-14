@@ -10,7 +10,7 @@
 
 void print_to_98(int n)
 {
-	if ( n <= 97)
+	if (n <= 97)
 	{
 		while (n <= 97)
 		{
