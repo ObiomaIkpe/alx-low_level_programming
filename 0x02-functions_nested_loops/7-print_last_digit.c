@@ -8,12 +8,13 @@
  */
 
 
-int print_last_digit(int);
+int print_last_digit(int c);
 {
-	if (a >= 0 && a <= 9)
+	if (c >= 0 && c <= 9)
 		return(a);
 	else
 	{
-		a = _abs(a % 10);
+		c = _abs(c % 10);
 		return(a);
-	
+	}
+}
