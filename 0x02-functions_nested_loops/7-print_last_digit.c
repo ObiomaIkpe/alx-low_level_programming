@@ -13,8 +13,7 @@ int print_last_digit(int c);
 	if (c >= 0 && c <= 9)
 		return(a);
 	else
-	{
 		c = _abs(c % 10);
 		return(a);
-	}
+
 }
