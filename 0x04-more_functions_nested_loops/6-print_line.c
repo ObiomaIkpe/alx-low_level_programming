@@ -4,17 +4,17 @@
  * print_line - Prints the n number of _
  * @n: number input
  *
- * Return: void
+ * Return: 0
  */
 
 void print_line(int n)
 {
-	int a;
+	int a = 0;
 
-	if (n > 0)
+	while ( < n && n > 0)
 	{
-		for ( a = 1; a < n; a ++)
-			_putchar('_');
+		_putchar('_');
+		a++;
 	}
 	_putchar('\n');
 }
