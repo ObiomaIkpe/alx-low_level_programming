@@ -1,1 +1,1 @@
-DEBUGGING
+ pointers, arrays, strings
