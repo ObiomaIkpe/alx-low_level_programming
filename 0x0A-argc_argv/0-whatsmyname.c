@@ -5,16 +5,15 @@
 
 
 /**
+ * main - prints the name of its executable file
  *
- *  * main - prints the name of its executable file
+ * @argc: number of input
  *
- *   * @argc: number of input
+ * @argv: array of inputted string
  *
- *    * @argv: array of inputted string
+ * Return: 0 as success
  *
- *     * Return: 0 as success
- *
- *      */
+ */
 
 
 
