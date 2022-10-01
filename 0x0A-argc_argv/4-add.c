@@ -16,6 +16,7 @@ int main(int argc, char **argv)
 	int j, i = 1;
 	int sum = 0;
 	char *s;
+
 	if (argc == 1)
 	{
 		printf("0\n");
