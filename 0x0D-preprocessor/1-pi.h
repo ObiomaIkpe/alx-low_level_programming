@@ -1,4 +1,4 @@
-#ifndef PI
+#ifndef P
 #define PI 3.14159265359
 
 #endif
