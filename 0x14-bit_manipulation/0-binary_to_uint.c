@@ -1,4 +1,5 @@
 #include "main.h"
+#include  <stdio.h>
 
 /**
  * is_not_bit - checks for 0 and 1
@@ -95,7 +96,7 @@ unsigned int binary_to_uint(const char *b)
 		num = num + ((b[i] - '0') * _pow(2, len--));
 		i++;
 	}
-	return (num)
+	return (num);
 }
 
 
