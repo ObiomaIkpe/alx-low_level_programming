@@ -36,6 +36,6 @@ for (i = 0; s[i] != '\0'; i++)
 		sign *= -1;
 	}
 }
-return (number *sign)
+return (number *sign);
 }
 
