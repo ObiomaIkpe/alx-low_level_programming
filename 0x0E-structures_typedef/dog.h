@@ -1,6 +1,10 @@
 #ifndef DOG_H
 #define DOG_H
 
+/**
+ * dog_t - new struct dog
+ */
+
 typedef struct dog dog_t;
 
 /**
