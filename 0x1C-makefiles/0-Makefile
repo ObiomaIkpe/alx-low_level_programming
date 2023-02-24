@@ -1,4 +1,4 @@
 #make -f -0-Makefile
 
 all: school.c
-	gcc school.c -o school
+	gcc main.c school.c -o school
