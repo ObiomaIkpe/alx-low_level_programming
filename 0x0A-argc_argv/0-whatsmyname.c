@@ -8,12 +8,13 @@
  */
 
 
-int main(int argc __attribute__((unused)), char* argv[])
+int main(int argc __attribute__((unused)), char **argv)
 {
-    int j;
-    for (j = 0; argv[0][j] != '\0'; j++)
-	_putchar(argv[0][j];
-    _putchar('\n'):
+	int j;
 
-   return (0);
+	for (j = 0; argv[0][j] !='\0'; j++)
+		_putchar(argv[0][j]);
+	_putchar('\n');
+
+	return (0);
 }
